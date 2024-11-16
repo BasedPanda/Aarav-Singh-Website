@@ -1027,6 +1027,29 @@ main {
 }
 
 
+.timeline-text {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline-text ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Mobile-only fixes */
+@media (max-width: 768px) {
+  .timeline-text li {
+    word-wrap: break-word;
+    padding-right: 10px;
+  }
+
+  .timeline-text li strong {
+    display: inline-block;
+    padding-bottom: 2px;
+  }
+}
 
 
 
